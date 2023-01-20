@@ -1,0 +1,126 @@
+/* Authors: Kylee Taylor, Emily Lara, Gwen Van Doren, Jordan Reed
+
+  Time spent: 1 hour
+
+  Description: This CSS file functions as the webpage's presentation formatting.
+
+*/
+
+* {
+	box-sizing: border-box;
+}
+/* Formating for the body*/
+body {
+	/* List font names/families in order of preference */
+	font-family: Helvetica, Arial, sans-serif;
+    height: 100%;
+    /*background-color: #647332; */
+
+}
+
+/* Formating for the header*/
+header {
+	background-color: #2e401c;
+	padding: 30px;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+}
+/* Formating for paragraphs included within the header*/
+header p {
+	font-size: 17px;
+    text-align: center;
+}
+/* Formating for any paragraphs*/
+p {
+  font-size: 17px;
+  text-align: center;
+}
+section {
+	background-color: rgb(236, 236, 236);
+	padding: 20px;
+  height: 92000px; /*was  800px*/
+}
+/* Creates the layout of the footer*/
+footer {
+	background-color: rgb(117, 117, 117);
+	padding: 10px;
+	text-align: center;
+	color: white;
+	clear: left;
+}
+.parallax {
+    /* The image used */
+    background-image: url("DavidsonTrees.jpg");
+    min-height: 650px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.div {
+    height: 1000px;
+    background-color: #2e401c;
+    font-size: 36px;
+    text-align: center;
+}
+img {
+    border: 5px solid #555;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .column {
+    float: left;
+    width: 49.33%;
+    padding: 2px;
+  }
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+ }
+.menu:link {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+  }
+  .menu:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+  }
+  .menu:hover {
+    color: #F2CD60;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 24px;
+    text-align: center;
+  }
+  .menu:active {
+    color: #BB342F;
+    background-color: transparent;
+    text-decoration: underline;
+    font-size: 24px;
+    text-align: center;
+  }
+  table, th, td {
+    border: 1px ridge #2e401c;
+    background-color: #EFEAE4;
+  }
+
+  td {
+    text-align: center;
+  }
+  td:hover {
+      background-color: yellow;
+  }
+  th {
+    background-color: #2e401c;
+    color: white;
+  }
